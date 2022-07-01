@@ -1,0 +1,1595 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:MC78L05_SOT89 IC11
+U 1 1 62BE0700
+P 3675 900
+F 0 "IC11" H 3629 1043 50  0000 L CNN
+F 1 "MC78L05_SOT89" H 3720 1004 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 3675 1100 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf" H 3675 850 50  0001 C CNN
+	1    3675 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C44
+U 1 1 62BE3B08
+P 4100 1100
+F 0 "C44" H 4192 1100 50  0000 L CNN
+F 1 "C_Small" H 4192 1055 50  0001 L CNN
+F 2 "" H 4100 1100 50  0001 C CNN
+F 3 "~" H 4100 1100 50  0001 C CNN
+	1    4100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C45
+U 1 1 62BE4322
+P 3200 1100
+F 0 "C45" H 3292 1100 50  0000 L CNN
+F 1 "C_Small" H 3292 1055 50  0001 L CNN
+F 2 "" H 3200 1100 50  0001 C CNN
+F 3 "~" H 3200 1100 50  0001 C CNN
+	1    3200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C29
+U 1 1 62BE517F
+P 2925 1100
+F 0 "C29" H 3013 1100 50  0000 L CNN
+F 1 "CP_Small" H 3013 1055 50  0001 L CNN
+F 2 "" H 2925 1100 50  0001 C CNN
+F 3 "~" H 2925 1100 50  0001 C CNN
+	1    2925 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L78L15_SOT89 IC5
+U 1 1 62BE5B64
+P 2475 900
+F 0 "IC5" H 2475 1142 50  0000 C CNN
+F 1 "L78L15_SOT89" H 2475 1051 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2475 1100 50  0001 C CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 2475 850 50  0001 C CNN
+	1    2475 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R40
+U 1 1 62BE75D3
+P 1950 1075
+F 0 "R40" H 2009 1121 50  0000 L CNN
+F 1 "2.2K" H 2009 1030 50  0000 L CNN
+F 2 "" H 1950 1075 50  0001 C CNN
+F 3 "~" H 1950 1075 50  0001 C CNN
+	1    1950 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C28
+U 1 1 62BE7C93
+P 1675 1075
+F 0 "C28" H 1763 1075 50  0000 L CNN
+F 1 "CP_Small" H 1763 1030 50  0001 L CNN
+F 2 "" H 1675 1075 50  0001 C CNN
+F 3 "~" H 1675 1075 50  0001 C CNN
+	1    1675 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 62BE8853
+P 1575 900
+F 0 "D10" H 1575 693 50  0000 C CNN
+F 1 "D_Small" H 1575 784 50  0001 C CNN
+F 2 "" V 1575 900 50  0001 C CNN
+F 3 "~" V 1575 900 50  0001 C CNN
+	1    1575 900 
+	-1   0    0    1   
+$EndComp
+Text GLabel 1325 900  0    50   Input ~ 0
+L2-11
+Text GLabel 1325 1175 0    50   Input ~ 0
+L2-10
+Wire Wire Line
+	1325 900  1475 900 
+Wire Wire Line
+	2475 1200 1950 1200
+Wire Wire Line
+	1950 1200 1950 1175
+Wire Wire Line
+	1950 1200 1675 1200
+Wire Wire Line
+	1675 1200 1675 1175
+Connection ~ 1950 1200
+Wire Wire Line
+	1675 1200 1325 1200
+Wire Wire Line
+	1325 1200 1325 1175
+Connection ~ 1675 1200
+Wire Wire Line
+	1675 900  1675 975 
+Wire Wire Line
+	1675 900  1950 900 
+Connection ~ 1675 900 
+Wire Wire Line
+	1950 975  1950 900 
+Connection ~ 1950 900 
+Wire Wire Line
+	1950 900  2175 900 
+Wire Wire Line
+	2475 1200 2925 1200
+Connection ~ 2475 1200
+Wire Wire Line
+	2925 1200 3200 1200
+Connection ~ 2925 1200
+Wire Wire Line
+	3200 1200 3675 1200
+Connection ~ 3200 1200
+Wire Wire Line
+	2775 900  2925 900 
+Wire Wire Line
+	2925 1000 2925 900 
+Connection ~ 2925 900 
+Wire Wire Line
+	2925 900  3200 900 
+Wire Wire Line
+	3200 1000 3200 900 
+Connection ~ 3200 900 
+Wire Wire Line
+	3200 900  3375 900 
+Wire Wire Line
+	3675 1200 4100 1200
+Connection ~ 3675 1200
+Wire Wire Line
+	3975 900  4100 900 
+Wire Wire Line
+	4100 900  4100 1000
+Text GLabel 4525 1200 2    50   Input ~ 0
+PWR-A-GND
+Wire Wire Line
+	4100 1200 4525 1200
+Connection ~ 4100 1200
+Text GLabel 4525 900  2    50   Input ~ 0
+PWR-A-5V
+Wire Wire Line
+	4100 900  4525 900 
+Connection ~ 4100 900 
+Text GLabel 3000 725  2    50   Input ~ 0
+PWR-A-15V
+Wire Wire Line
+	2925 900  2925 725 
+Wire Wire Line
+	2925 725  3000 725 
+$Comp
+L Regulator_Linear:MC78L05_SOT89 IC12
+U 1 1 62C01213
+P 3675 1775
+F 0 "IC12" H 3629 1918 50  0000 L CNN
+F 1 "MC78L05_SOT89" H 3720 1879 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 3675 1975 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf" H 3675 1725 50  0001 C CNN
+	1    3675 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C46
+U 1 1 62C01219
+P 4100 1975
+F 0 "C46" H 4192 1975 50  0000 L CNN
+F 1 "100nF" H 4192 1930 50  0001 L CNN
+F 2 "" H 4100 1975 50  0001 C CNN
+F 3 "~" H 4100 1975 50  0001 C CNN
+	1    4100 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C47
+U 1 1 62C0121F
+P 3200 1975
+F 0 "C47" H 3292 1975 50  0000 L CNN
+F 1 "100nF" H 3292 1930 50  0001 L CNN
+F 2 "" H 3200 1975 50  0001 C CNN
+F 3 "~" H 3200 1975 50  0001 C CNN
+	1    3200 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C31
+U 1 1 62C01225
+P 2925 1975
+F 0 "C31" H 3013 1975 50  0000 L CNN
+F 1 "3.3uF" H 3013 1930 50  0001 L CNN
+F 2 "" H 2925 1975 50  0001 C CNN
+F 3 "~" H 2925 1975 50  0001 C CNN
+	1    2925 1975
+	1    0    0    -1  
+$EndComp
+Text GLabel 1325 2050 0    50   Input ~ 0
+L2-13
+Wire Wire Line
+	1950 2075 1950 2050
+Wire Wire Line
+	1950 2075 1675 2075
+Wire Wire Line
+	1675 2075 1675 2050
+Connection ~ 1950 2075
+Wire Wire Line
+	1325 2075 1325 2050
+Connection ~ 1675 2075
+Wire Wire Line
+	2925 2075 3200 2075
+Connection ~ 2925 2075
+Wire Wire Line
+	3200 2075 3675 2075
+Connection ~ 3200 2075
+Wire Wire Line
+	3200 1875 3200 1775
+Wire Wire Line
+	3200 1775 3375 1775
+Wire Wire Line
+	3675 2075 4100 2075
+Connection ~ 3675 2075
+Wire Wire Line
+	3975 1775 4100 1775
+Wire Wire Line
+	4100 1775 4100 1875
+Text GLabel 4525 2075 2    50   Input ~ 0
+PWR-B-GND
+Wire Wire Line
+	4100 2075 4525 2075
+Connection ~ 4100 2075
+Text GLabel 4525 1775 2    50   Input ~ 0
+PWR-B-5V
+Wire Wire Line
+	4100 1775 4525 1775
+Connection ~ 4100 1775
+$Comp
+L Regulator_Linear:MC78L05_SOT89 IC9
+U 1 1 62C13BAE
+P 4525 2775
+F 0 "IC9" H 4479 2918 50  0000 L CNN
+F 1 "MC78L05_SOT89" H 4570 2879 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 4525 2975 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf" H 4525 2725 50  0001 C CNN
+	1    4525 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C40
+U 1 1 62C13BB4
+P 4950 2975
+F 0 "C40" H 5042 2975 50  0000 L CNN
+F 1 "C_Small" H 5042 2930 50  0001 L CNN
+F 2 "" H 4950 2975 50  0001 C CNN
+F 3 "~" H 4950 2975 50  0001 C CNN
+	1    4950 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C41
+U 1 1 62C13BBA
+P 4050 2975
+F 0 "C41" H 4142 2975 50  0000 L CNN
+F 1 "C_Small" H 4142 2930 50  0001 L CNN
+F 2 "" H 4050 2975 50  0001 C CNN
+F 3 "~" H 4050 2975 50  0001 C CNN
+	1    4050 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C27
+U 1 1 62C13BC0
+P 3775 2975
+F 0 "C27" H 3863 2975 50  0000 L CNN
+F 1 "CP_Small" H 3863 2930 50  0001 L CNN
+F 2 "" H 3775 2975 50  0001 C CNN
+F 3 "~" H 3775 2975 50  0001 C CNN
+	1    3775 2975
+	1    0    0    -1  
+$EndComp
+Text GLabel 1275 2700 0    50   Input ~ 0
+L2-8
+Text GLabel 1275 3600 0    50   Input ~ 0
+L2-7
+Wire Wire Line
+	3775 3075 4050 3075
+Wire Wire Line
+	4050 3075 4525 3075
+Connection ~ 4050 3075
+Wire Wire Line
+	3775 2875 3775 2775
+Connection ~ 3775 2775
+Wire Wire Line
+	4050 2875 4050 2775
+Connection ~ 4050 2775
+Wire Wire Line
+	4050 2775 4225 2775
+Wire Wire Line
+	4525 3075 4950 3075
+Connection ~ 4525 3075
+Wire Wire Line
+	4825 2775 4950 2775
+Wire Wire Line
+	4950 2775 4950 2875
+Text GLabel 5375 3075 2    50   Input ~ 0
+PWR-R-GND
+Wire Wire Line
+	4950 3075 5375 3075
+Connection ~ 4950 3075
+Text GLabel 5375 2775 2    50   Input ~ 0
+PWR-B-PC7
+Wire Wire Line
+	4950 2775 5375 2775
+Connection ~ 4950 2775
+Text GLabel 3850 2600 2    50   Input ~ 0
+PWR-R-15V
+Wire Wire Line
+	3775 2775 3775 2600
+Wire Wire Line
+	3775 2600 3850 2600
+$Comp
+L Regulator_Linear:MC78L05_SOT89 IC10
+U 1 1 62C32D09
+P 4525 3300
+F 0 "IC10" H 4479 3443 50  0000 L CNN
+F 1 "MC78L05_SOT89" H 4570 3404 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 4525 3500 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf" H 4525 3250 50  0001 C CNN
+	1    4525 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C42
+U 1 1 62C32D0F
+P 4950 3500
+F 0 "C42" H 5042 3500 50  0000 L CNN
+F 1 "C_Small" H 5042 3455 50  0001 L CNN
+F 2 "" H 4950 3500 50  0001 C CNN
+F 3 "~" H 4950 3500 50  0001 C CNN
+	1    4950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C43
+U 1 1 62C32D15
+P 4050 3500
+F 0 "C43" H 4142 3500 50  0000 L CNN
+F 1 "C_Small" H 4142 3455 50  0001 L CNN
+F 2 "" H 4050 3500 50  0001 C CNN
+F 3 "~" H 4050 3500 50  0001 C CNN
+	1    4050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3600 4525 3600
+Wire Wire Line
+	4525 3600 4950 3600
+Connection ~ 4525 3600
+Wire Wire Line
+	4825 3300 4950 3300
+Wire Wire Line
+	4950 3300 4950 3400
+Text GLabel 5375 3600 2    50   Input ~ 0
+PWR-R-GND
+Wire Wire Line
+	4950 3600 5375 3600
+Connection ~ 4950 3600
+Text GLabel 5375 3300 2    50   Input ~ 0
+PWR-R-PC8
+Wire Wire Line
+	4950 3300 5375 3300
+Connection ~ 4950 3300
+Wire Wire Line
+	4050 3300 4225 3300
+Wire Wire Line
+	4050 3400 4050 3300
+Wire Wire Line
+	4050 3300 3850 3300
+Wire Wire Line
+	3850 3300 3850 2775
+Wire Wire Line
+	3775 2775 3850 2775
+Connection ~ 4050 3300
+Connection ~ 3850 2775
+Wire Wire Line
+	3850 2775 4050 2775
+Wire Wire Line
+	4050 3600 3775 3600
+Wire Wire Line
+	3775 3600 3775 3075
+Connection ~ 4050 3600
+Connection ~ 3775 3075
+$Comp
+L Device:Q_NPN_ECB Q5
+U 1 1 62C40989
+P 3400 2575
+F 0 "Q5" H 3590 2575 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 3591 2530 50  0001 L CNN
+F 2 "" H 3600 2675 50  0001 C CNN
+F 3 "~" H 3400 2575 50  0001 C CNN
+	1    3400 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2775 3775 2775
+$Comp
+L Device:D_Zener_Small ZD3
+U 1 1 62C45EAA
+P 3275 3350
+F 0 "ZD3" V 3275 3420 50  0000 L CNN
+F 1 "D_Zener_Small" V 3320 3420 50  0001 L CNN
+F 2 "" V 3275 3350 50  0001 C CNN
+F 3 "~" V 3275 3350 50  0001 C CNN
+	1    3275 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R39
+U 1 1 62C51758
+P 2775 3200
+F 0 "R39" H 2834 3200 50  0000 L CNN
+F 1 "R_Small" H 2834 3155 50  0001 L CNN
+F 2 "" H 2775 3200 50  0001 C CNN
+F 3 "~" H 2775 3200 50  0001 C CNN
+	1    2775 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C26
+U 1 1 62C5645E
+P 2225 3350
+F 0 "C26" H 2313 3350 50  0000 L CNN
+F 1 "CP_Small" H 2313 3305 50  0001 L CNN
+F 2 "" H 2225 3350 50  0001 C CNN
+F 3 "~" H 2225 3350 50  0001 C CNN
+	1    2225 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 3025 2775 3100
+Wire Wire Line
+	2775 3300 2775 3600
+Connection ~ 3775 3600
+$Comp
+L Device:R_Small R37
+U 1 1 62C657F3
+P 3075 2475
+F 0 "R37" H 3134 2475 50  0000 L CNN
+F 1 "R_Small" H 3134 2430 50  0001 L CNN
+F 2 "" H 3075 2475 50  0001 C CNN
+F 3 "~" H 3075 2475 50  0001 C CNN
+	1    3075 2475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2325 3500 2375
+Wire Wire Line
+	3075 3225 3075 3600
+Connection ~ 2775 3600
+Connection ~ 3075 3600
+Wire Wire Line
+	2775 3600 3075 3600
+Wire Wire Line
+	3075 2575 3075 2825
+Wire Wire Line
+	3075 2575 3200 2575
+Wire Wire Line
+	3275 3250 3275 2575
+Wire Wire Line
+	3275 2575 3200 2575
+Connection ~ 3200 2575
+Wire Wire Line
+	3275 3450 3275 3600
+Wire Wire Line
+	3075 3600 3275 3600
+Connection ~ 3275 3600
+Wire Wire Line
+	3275 3600 3775 3600
+Connection ~ 2775 3025
+$Comp
+L Device:R_Small R38
+U 1 1 62C65030
+P 2775 2800
+F 0 "R38" H 2834 2800 50  0000 L CNN
+F 1 "R_Small" H 2834 2755 50  0001 L CNN
+F 2 "" H 2775 2800 50  0001 C CNN
+F 3 "~" H 2775 2800 50  0001 C CNN
+	1    2775 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_ECB Q4
+U 1 1 62C47612
+P 2975 3025
+F 0 "Q4" H 3165 3025 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 3166 2980 50  0001 L CNN
+F 2 "" H 3175 3125 50  0001 C CNN
+F 3 "~" H 2975 3025 50  0001 C CNN
+	1    2975 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 2900 2775 3025
+Wire Wire Line
+	2425 2700 2775 2700
+$Comp
+L Device:Q_PNP_ECB Q3
+U 1 1 62C8992E
+P 2225 2800
+F 0 "Q3" V 2462 2800 50  0000 C CNN
+F 1 "Q_PNP_BCE" V 2551 2800 50  0001 C CNN
+F 2 "" H 2425 2900 50  0001 C CNN
+F 3 "~" H 2225 2800 50  0001 C CNN
+	1    2225 2800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2025 2325 2025 2700
+Wire Wire Line
+	2225 3450 2225 3600
+Wire Wire Line
+	2225 3600 2775 3600
+Wire Wire Line
+	2225 3000 2225 3200
+$Comp
+L Device:R_Small R36
+U 1 1 62D0B92B
+P 2025 3025
+F 0 "R36" H 2084 3025 50  0000 L CNN
+F 1 "R_Small" H 2084 2980 50  0001 L CNN
+F 2 "" H 2025 3025 50  0001 C CNN
+F 3 "~" H 2025 3025 50  0001 C CNN
+	1    2025 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2025 2700 2025 2925
+Connection ~ 2025 2700
+Wire Wire Line
+	2025 3125 2025 3200
+Wire Wire Line
+	2025 3200 2225 3200
+Connection ~ 2225 3200
+Wire Wire Line
+	2225 3200 2225 3250
+Connection ~ 3075 2575
+Wire Wire Line
+	2025 2325 3075 2325
+Wire Wire Line
+	3075 2375 3075 2325
+Connection ~ 3075 2325
+Wire Wire Line
+	3075 2325 3500 2325
+$Comp
+L Device:R_Small R35
+U 1 1 62D21E7D
+P 1750 3025
+F 0 "R35" H 1809 3025 50  0000 L CNN
+F 1 "R_Small" H 1809 2980 50  0001 L CNN
+F 2 "" H 1750 3025 50  0001 C CNN
+F 3 "~" H 1750 3025 50  0001 C CNN
+	1    1750 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2925 1750 2700
+Wire Wire Line
+	1750 3125 1750 3600
+Wire Wire Line
+	1750 3600 2225 3600
+Connection ~ 2225 3600
+$Comp
+L Device:CP_Small C25
+U 1 1 62D2CB46
+P 1475 3350
+F 0 "C25" H 1563 3350 50  0000 L CNN
+F 1 "CP_Small" H 1563 3305 50  0001 L CNN
+F 2 "" H 1475 3350 50  0001 C CNN
+F 3 "~" H 1475 3350 50  0001 C CNN
+	1    1475 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 3250 1475 2700
+Wire Wire Line
+	1475 2700 1750 2700
+Connection ~ 1750 2700
+Wire Wire Line
+	1750 2700 2025 2700
+Wire Wire Line
+	1475 3450 1475 3600
+Wire Wire Line
+	1475 3600 1750 3600
+Connection ~ 1750 3600
+$Comp
+L Device:D_Small D9
+U 1 1 62D3EF35
+P 1375 2700
+F 0 "D9" H 1375 2585 50  0000 C CNN
+F 1 "D_Small" H 1375 2584 50  0001 C CNN
+F 2 "" V 1375 2700 50  0001 C CNN
+F 3 "~" V 1375 2700 50  0001 C CNN
+	1    1375 2700
+	-1   0    0    1   
+$EndComp
+Connection ~ 1475 2700
+Wire Wire Line
+	1275 3600 1475 3600
+Connection ~ 1475 3600
+$Comp
+L Device:CP_Small C19
+U 1 1 62D848CD
+P 1625 4925
+F 0 "C19" H 1450 4850 50  0000 L CNN
+F 1 "CP_Small" H 1713 4880 50  0001 L CNN
+F 2 "" H 1625 4925 50  0001 C CNN
+F 3 "~" H 1625 4925 50  0001 C CNN
+	1    1625 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C20
+U 1 1 62D85D4C
+P 1825 4925
+F 0 "C20" H 1650 4850 50  0000 L CNN
+F 1 "CP_Small" H 1913 4880 50  0001 L CNN
+F 2 "" H 1825 4925 50  0001 C CNN
+F 3 "~" H 1825 4925 50  0001 C CNN
+	1    1825 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C21
+U 1 1 62D8C0F3
+P 2050 4925
+F 0 "C21" H 1900 4850 50  0000 L CNN
+F 1 "CP_Small" H 2138 4880 50  0001 L CNN
+F 2 "" H 2050 4925 50  0001 C CNN
+F 3 "~" H 2050 4925 50  0001 C CNN
+	1    2050 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 62D8D458
+P 1425 4600
+F 0 "D8" H 1425 4485 50  0000 C CNN
+F 1 "D_Small" H 1425 4484 50  0001 C CNN
+F 2 "" V 1425 4600 50  0001 C CNN
+F 3 "~" V 1425 4600 50  0001 C CNN
+	1    1425 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R34
+U 1 1 62D9419F
+P 2225 4925
+F 0 "R34" H 2284 4971 50  0000 L CNN
+F 1 "R_Small" H 2284 4880 50  0001 L CNN
+F 2 "" H 2225 4925 50  0001 C CNN
+F 3 "~" H 2225 4925 50  0001 C CNN
+	1    2225 4925
+	1    0    0    -1  
+$EndComp
+Text GLabel 1275 4600 0    50   Input ~ 0
+L2-F
+Text GLabel 1275 5175 0    50   Input ~ 0
+L2-S
+Wire Wire Line
+	1275 4600 1325 4600
+Wire Wire Line
+	2225 4825 2225 4600
+Wire Wire Line
+	2225 4600 2050 4600
+Wire Wire Line
+	1275 5175 1625 5175
+Wire Wire Line
+	2225 5175 2225 5025
+Wire Wire Line
+	2050 5025 2050 5175
+Connection ~ 2050 5175
+Wire Wire Line
+	2050 4825 2050 4600
+Connection ~ 2050 4600
+Wire Wire Line
+	2050 4600 1825 4600
+Wire Wire Line
+	1825 4825 1825 4600
+Connection ~ 1825 4600
+Wire Wire Line
+	1825 4600 1625 4600
+Wire Wire Line
+	1825 5025 1825 5175
+Connection ~ 1825 5175
+Wire Wire Line
+	1825 5175 2050 5175
+Wire Wire Line
+	1625 4825 1625 4600
+Connection ~ 1625 4600
+Wire Wire Line
+	1625 4600 1525 4600
+Wire Wire Line
+	1625 5025 1625 5175
+Connection ~ 1625 5175
+Wire Wire Line
+	1625 5175 1825 5175
+$Comp
+L Device:C_Small C22
+U 1 1 62DBD4D1
+P 2500 4950
+F 0 "C22" H 2592 4950 50  0000 L CNN
+F 1 "C_Small" H 2592 4905 50  0001 L CNN
+F 2 "" H 2500 4950 50  0001 C CNN
+F 3 "~" H 2500 4950 50  0001 C CNN
+	1    2500 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5175 2500 5050
+Wire Wire Line
+	2050 5175 2225 5175
+Connection ~ 2225 5175
+Wire Wire Line
+	2225 5175 2500 5175
+Wire Wire Line
+	2225 4600 2500 4600
+Wire Wire Line
+	2500 4600 2500 4850
+Connection ~ 2225 4600
+$Comp
+L Reference_Voltage:TL431DBZ IC3
+U 1 1 62DC9578
+P 3000 4950
+F 0 "IC3" V 3000 4881 50  0000 R CNN
+F 1 "TL431DBZ" V 2955 4880 50  0001 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 4800 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 3000 4950 50  0001 C CIN
+	1    3000 4950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2500 5175 3000 5175
+Wire Wire Line
+	3000 5175 3000 5050
+Connection ~ 2500 5175
+$Comp
+L Device:R_Small R30
+U 1 1 62DD5810
+P 2750 4600
+F 0 "R30" V 2646 4600 50  0000 C CNN
+F 1 "R_Small" V 2645 4600 50  0001 C CNN
+F 2 "" H 2750 4600 50  0001 C CNN
+F 3 "~" H 2750 4600 50  0001 C CNN
+	1    2750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 4600 2500 4600
+Connection ~ 2500 4600
+Wire Wire Line
+	2850 4600 3000 4600
+$Comp
+L Isolator:PC817 PC1
+U 1 1 62DE2682
+P 2700 4300
+F 0 "PC1" H 2700 4533 50  0000 C CNN
+F 1 "PC817" H 2700 4534 50  0001 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 2500 4100 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 2700 4300 50  0001 L CNN
+	1    2700 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4400 3000 4600
+Connection ~ 3000 4600
+Wire Wire Line
+	3000 4600 3000 4850
+$Comp
+L Device:R_Small R29
+U 1 1 62E07C6C
+P 3000 3950
+F 0 "R29" H 3059 3996 50  0000 L CNN
+F 1 "R_Small" H 3059 3905 50  0001 L CNN
+F 2 "" H 3000 3950 50  0001 C CNN
+F 3 "~" H 3000 3950 50  0001 C CNN
+	1    3000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4200 3000 4100
+Wire Wire Line
+	3000 3850 3000 3775
+Wire Wire Line
+	3000 3775 2225 3775
+Wire Wire Line
+	2225 3775 2225 4600
+$Comp
+L Device:C_Small C17
+U 1 1 62E14AEF
+P 3225 4300
+F 0 "C17" H 3317 4300 50  0000 L CNN
+F 1 "C_Small" H 3317 4255 50  0001 L CNN
+F 2 "" H 3225 4300 50  0001 C CNN
+F 3 "~" H 3225 4300 50  0001 C CNN
+	1    3225 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4100 3225 4100
+Wire Wire Line
+	3225 4100 3225 4200
+Connection ~ 3000 4100
+Wire Wire Line
+	3000 4100 3000 4050
+Wire Wire Line
+	3225 4950 3100 4950
+$Comp
+L Device:R_Small R31
+U 1 1 62E22F19
+P 3400 4750
+F 0 "R31" H 3459 4750 50  0000 L CNN
+F 1 "R_Small" H 3459 4705 50  0001 L CNN
+F 2 "" H 3400 4750 50  0001 C CNN
+F 3 "~" H 3400 4750 50  0001 C CNN
+	1    3400 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4650 3400 4525
+$Comp
+L Device:R_POT_Small VR2
+U 1 1 62E2AD18
+P 3400 5025
+F 0 "VR2" H 3340 5025 50  0000 R CNN
+F 1 "R_POT_Small" H 3341 4980 50  0001 R CNN
+F 2 "" H 3400 5025 50  0001 C CNN
+F 3 "~" H 3400 5025 50  0001 C CNN
+	1    3400 5025
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 4400 3225 4525
+Wire Wire Line
+	3400 4525 3225 4525
+Connection ~ 3225 4525
+Wire Wire Line
+	3225 4525 3225 4950
+Wire Wire Line
+	3000 5175 3200 5175
+Wire Wire Line
+	3400 5175 3400 5125
+Connection ~ 3000 5175
+Wire Wire Line
+	3300 5025 3200 5025
+Wire Wire Line
+	3200 5025 3200 5175
+Connection ~ 3200 5175
+Wire Wire Line
+	3200 5175 3400 5175
+Wire Wire Line
+	3400 4850 3400 4925
+$Comp
+L Device:R_Small R32
+U 1 1 62E5CBBA
+P 3400 3950
+F 0 "R32" H 3459 3950 50  0000 L CNN
+F 1 "R_Small" H 3459 3905 50  0001 L CNN
+F 2 "" H 3400 3950 50  0001 C CNN
+F 3 "~" H 3400 3950 50  0001 C CNN
+	1    3400 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 3775
+Wire Wire Line
+	3400 4050 3400 4525
+Connection ~ 3400 4525
+Wire Wire Line
+	3400 3775 3400 3850
+Wire Wire Line
+	3000 3775 3400 3775
+$Comp
+L Device:C_Small C23
+U 1 1 62E83785
+P 3700 4275
+F 0 "C23" H 3792 4275 50  0000 L CNN
+F 1 "C_Small" H 3792 4230 50  0001 L CNN
+F 2 "" H 3700 4275 50  0001 C CNN
+F 3 "~" H 3700 4275 50  0001 C CNN
+	1    3700 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C24
+U 1 1 62E846B4
+P 3700 4800
+F 0 "C24" H 3792 4800 50  0000 L CNN
+F 1 "C_Small" H 3792 4755 50  0001 L CNN
+F 2 "" H 3700 4800 50  0001 C CNN
+F 3 "~" H 3700 4800 50  0001 C CNN
+	1    3700 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3775 3700 3775
+Wire Wire Line
+	3700 3775 3700 4175
+Connection ~ 3400 3775
+Wire Wire Line
+	3400 5175 3700 5175
+Wire Wire Line
+	3700 5175 3700 4900
+Connection ~ 3400 5175
+$Comp
+L power:GND #PWR?
+U 1 1 62E948AE
+P 3600 4500
+F 0 "#PWR?" H 3600 4250 50  0001 C CNN
+F 1 "GND" H 3605 4327 50  0000 C CNN
+F 2 "" H 3600 4500 50  0001 C CNN
+F 3 "" H 3600 4500 50  0001 C CNN
+	1    3600 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4375 3700 4450
+Wire Wire Line
+	3600 4500 3600 4450
+Wire Wire Line
+	3600 4450 3700 4450
+Connection ~ 3700 4450
+Wire Wire Line
+	3700 4450 3700 4700
+$Comp
+L Regulator_Linear:LM78M05_TO220 IC4
+U 1 1 62EA4E68
+P 4325 4250
+F 0 "IC4" H 4325 4401 50  0000 C CNN
+F 1 "LM78M05_TO220" H 4325 4401 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4325 4475 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM78M05.pdf" H 4325 4200 50  0001 C CNN
+	1    4325 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R33
+U 1 1 62EA6B50
+P 4025 3975
+F 0 "R33" H 4084 3975 50  0000 L CNN
+F 1 "R_Small" H 4084 3930 50  0001 L CNN
+F 2 "" H 4025 3975 50  0001 C CNN
+F 3 "~" H 4025 3975 50  0001 C CNN
+	1    4025 3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3775 4025 3775
+Wire Wire Line
+	4025 3775 4025 3875
+Connection ~ 3700 3775
+Wire Wire Line
+	4025 4075 4025 4250
+Wire Wire Line
+	4325 5175 4325 4550
+Connection ~ 3700 5175
+$Comp
+L Device:CP_Small C10
+U 1 1 62EC02A0
+P 4625 4650
+F 0 "C10" H 4713 4650 50  0000 L CNN
+F 1 "CP_Small" H 4713 4605 50  0001 L CNN
+F 2 "" H 4625 4650 50  0001 C CNN
+F 3 "~" H 4625 4650 50  0001 C CNN
+	1    4625 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 4250 4625 4550
+Wire Wire Line
+	3700 5175 4325 5175
+Wire Wire Line
+	4625 4750 4625 5175
+Wire Wire Line
+	4625 5175 4325 5175
+Connection ~ 4325 5175
+$Comp
+L Device:C_Small C50
+U 1 1 62EDC5A6
+P 4800 4900
+F 0 "C50" H 4892 4900 50  0000 L CNN
+F 1 "C_Small" H 4892 4855 50  0001 L CNN
+F 2 "" H 4800 4900 50  0001 C CNN
+F 3 "~" H 4800 4900 50  0001 C CNN
+	1    4800 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 4250 4800 4250
+Wire Wire Line
+	4800 4250 4800 4475
+Connection ~ 4625 4250
+Wire Wire Line
+	4800 5000 4800 5175
+Wire Wire Line
+	4800 5175 4625 5175
+Connection ~ 4625 5175
+$Comp
+L 74xx:74LS06 IC7
+U 7 1 62EEEB56
+P 5300 4250
+F 0 "IC7" V 5667 4250 50  0000 C CNN
+F 1 "74LS06" H 5576 4250 50  0001 C CNN
+F 2 "" H 5300 4250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS06" H 5300 4250 50  0001 C CNN
+	7    5300 4250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4800 4250
+Text GLabel 5200 4750 2    50   Input ~ 0
+IC8-14
+Text GLabel 5375 5050 2    50   Input ~ 0
+IC8-7
+Wire Wire Line
+	4800 4475 4950 4475
+Wire Wire Line
+	4950 4475 4950 4750
+Wire Wire Line
+	4950 4750 5200 4750
+Connection ~ 4800 4475
+Wire Wire Line
+	4800 4475 4800 4800
+Wire Wire Line
+	4800 5175 5375 5175
+Wire Wire Line
+	5375 5175 5375 5050
+Connection ~ 4800 5175
+$Comp
+L Device:C_Small C49
+U 1 1 62BFF729
+P 5675 3900
+F 0 "C49" V 5538 3900 50  0000 C CNN
+F 1 "C_Small" V 5537 3900 50  0001 C CNN
+F 2 "" H 5675 3900 50  0001 C CNN
+F 3 "~" H 5675 3900 50  0001 C CNN
+	1    5675 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5775 3900 5800 3900
+Wire Wire Line
+	5800 3900 5800 4250
+Wire Wire Line
+	4800 4250 4800 3975
+Wire Wire Line
+	4800 3975 5575 3975
+Wire Wire Line
+	5575 3975 5575 3900
+Text GLabel 6275 3775 2    50   Input ~ 0
+12V+
+Wire Wire Line
+	4025 3775 5975 3775
+Connection ~ 4025 3775
+Text GLabel 6300 5175 2    50   Input ~ 0
+12V0
+Wire Wire Line
+	5375 5175 5975 5175
+Connection ~ 5375 5175
+Text GLabel 6300 3975 2    50   Input ~ 0
+5V+
+Wire Wire Line
+	6300 3975 5575 3975
+Connection ~ 5575 3975
+$Comp
+L Connector:Conn_01x02_Female CFAN
+U 1 1 62C328D0
+P 6175 4500
+F 0 "CFAN" H 6203 4430 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 6203 4385 50  0001 L CNN
+F 2 "" H 6175 4500 50  0001 C CNN
+F 3 "~" H 6175 4500 50  0001 C CNN
+	1    6175 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5975 4500 5975 3775
+Connection ~ 5975 3775
+Wire Wire Line
+	5975 3775 6275 3775
+Wire Wire Line
+	5975 4600 5975 5175
+Connection ~ 5975 5175
+Wire Wire Line
+	5975 5175 6300 5175
+Text Notes 7375 7500 0    50   ~ 10
+SEGA G-Loc Motor Control Board NewGen
+Text Notes 8125 7650 0    50   ~ 10
+30 Jun 2022
+Text GLabel 1275 5550 0    50   Input ~ 10
++340V
+Text GLabel 1075 7025 0    50   Input ~ 0
+0V
+$Comp
+L Device:R_Small R20
+U 1 1 62C4A575
+P 1450 5650
+F 0 "R20" H 1509 5650 50  0000 L CNN
+F 1 "R_Small" H 1509 5605 50  0001 L CNN
+F 2 "" H 1450 5650 50  0001 C CNN
+F 3 "~" H 1450 5650 50  0001 C CNN
+	1    1450 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 62C4B626
+P 1725 5650
+F 0 "C14" H 1725 5825 50  0000 L CNN
+F 1 "C_Small" H 1817 5605 50  0001 L CNN
+F 2 "" H 1725 5650 50  0001 C CNN
+F 3 "~" H 1725 5650 50  0001 C CNN
+	1    1725 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 62C4C6ED
+P 1450 5950
+F 0 "D4" V 1450 6020 50  0000 L CNN
+F 1 "D_Small" V 1495 6020 50  0001 L CNN
+F 2 "" V 1450 5950 50  0001 C CNN
+F 3 "~" V 1450 5950 50  0001 C CNN
+	1    1450 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R21A
+U 1 1 62C57B8A
+P 1900 5650
+F 0 "R21A" H 1959 5650 50  0000 L CNN
+F 1 "R_Small" H 1959 5605 50  0001 L CNN
+F 2 "" H 1900 5650 50  0001 C CNN
+F 3 "~" H 1900 5650 50  0001 C CNN
+	1    1900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R21B
+U 1 1 62C58A82
+P 1900 5950
+F 0 "R21B" H 1959 5950 50  0000 L CNN
+F 1 "R_Small" H 1959 5905 50  0001 L CNN
+F 2 "" H 1900 5950 50  0001 C CNN
+F 3 "~" H 1900 5950 50  0001 C CNN
+	1    1900 5950
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 5550
+Wire Wire Line
+	1725 5550 1450 5550
+Wire Wire Line
+	1450 5750 1450 5800
+Wire Wire Line
+	1725 5750 1725 5800
+Wire Wire Line
+	1725 5800 1450 5800
+Connection ~ 1450 5800
+Wire Wire Line
+	1450 5800 1450 5850
+Wire Wire Line
+	1900 5750 1900 5850
+$Comp
+L Transistor_FET:VNP10N07 Q1
+U 1 1 62C860E5
+P 1550 6350
+F 0 "Q1" H 1838 6396 50  0000 L CNN
+F 1 "K1535" H 1838 6305 50  0000 L CNN
+F 2 "" H 1525 6350 50  0001 C CNN
+F 3 "~" H 1525 6350 50  0001 C CNN
+	1    1550 6350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 6050 1450 6075
+$Comp
+L Device:R_Small R24
+U 1 1 62CA982B
+P 1350 6725
+F 0 "R24" H 1150 6775 50  0000 L CNN
+F 1 "R_Small" H 1409 6680 50  0001 L CNN
+F 2 "" H 1350 6725 50  0001 C CNN
+F 3 "~" H 1350 6725 50  0001 C CNN
+	1    1350 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R26-NA
+U 1 1 62CAA6C1
+P 1450 6725
+F 0 "R26-NA" V 1525 6550 50  0000 L CNN
+F 1 "R_Small" H 1509 6680 50  0001 L CNN
+F 2 "" H 1450 6725 50  0001 C CNN
+F 3 "~" H 1450 6725 50  0001 C CNN
+	1    1450 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 6550 1450 6550
+Wire Wire Line
+	1350 6550 1350 6625
+Connection ~ 1350 6550
+Wire Wire Line
+	1450 6550 1450 6625
+Connection ~ 1450 6550
+Wire Wire Line
+	1450 7025 1450 6825
+Wire Wire Line
+	1350 6825 1350 7025
+Connection ~ 1350 7025
+Wire Wire Line
+	1350 7025 1450 7025
+$Comp
+L Device:D_Small D5
+U 1 1 62CFECAE
+P 1700 6550
+F 0 "D5" H 1700 6625 50  0000 C CNN
+F 1 "D_Small" H 1700 6434 50  0001 C CNN
+F 2 "" V 1700 6550 50  0001 C CNN
+F 3 "~" V 1700 6550 50  0001 C CNN
+	1    1700 6550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 6550 1600 6550
+$Comp
+L Device:D_Zener_Small ZD1
+U 1 1 62D421B3
+P 1900 6725
+F 0 "ZD1" V 1900 6795 50  0000 L CNN
+F 1 "D_Zener_Small" V 1945 6795 50  0001 L CNN
+F 2 "" V 1900 6725 50  0001 C CNN
+F 3 "~" V 1900 6725 50  0001 C CNN
+	1    1900 6725
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 6050 1900 6350
+Wire Wire Line
+	1725 5550 1900 5550
+Connection ~ 1725 5550
+Wire Wire Line
+	1800 6550 1900 6550
+Wire Wire Line
+	1900 6625 1900 6550
+Connection ~ 1900 6550
+Wire Wire Line
+	1450 7025 1900 7025
+Wire Wire Line
+	1900 7025 1900 6825
+Connection ~ 1450 7025
+Wire Wire Line
+	1750 6350 1900 6350
+Connection ~ 1900 6350
+Wire Wire Line
+	1900 6350 1900 6550
+Text GLabel 3300 5550 2    50   Input ~ 0
+L2-3
+Text GLabel 3300 6075 2    50   Input ~ 0
+L2-4
+Connection ~ 1900 5550
+Connection ~ 1450 6075
+Wire Wire Line
+	1450 6075 1450 6150
+$Comp
+L Device:R_Small R22
+U 1 1 62DE40DD
+P 2125 6350
+F 0 "R22" V 2021 6350 50  0000 C CNN
+F 1 "R_Small" V 2020 6350 50  0001 C CNN
+F 2 "" H 2125 6350 50  0001 C CNN
+F 3 "~" H 2125 6350 50  0001 C CNN
+	1    2125 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2025 6350 1900 6350
+$Comp
+L Device:R_Small R27
+U 1 1 62E4EC1F
+P 2225 6675
+F 0 "R27" H 2050 6800 50  0000 L CNN
+F 1 "R_Small" H 2284 6630 50  0001 L CNN
+F 2 "" H 2225 6675 50  0001 C CNN
+F 3 "~" H 2225 6675 50  0001 C CNN
+	1    2225 6675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2225 6350 2225 6575
+Wire Wire Line
+	2225 6775 2225 7100
+Wire Wire Line
+	2225 7100 1275 7100
+Wire Wire Line
+	1275 7100 1275 6550
+Wire Wire Line
+	1275 6550 1350 6550
+$Comp
+L Device:Q_NPN_ECB Q2
+U 1 1 62E6E08D
+P 2525 6825
+F 0 "Q2" H 2400 6950 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 2716 6780 50  0001 L CNN
+F 2 "" H 2725 6925 50  0001 C CNN
+F 3 "~" H 2525 6825 50  0001 C CNN
+	1    2525 6825
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 7025 1900 7025
+Connection ~ 1900 7025
+Wire Wire Line
+	2425 6625 2425 6350
+Wire Wire Line
+	2425 6350 2225 6350
+Connection ~ 2225 6350
+$Comp
+L Device:C_Small C15
+U 1 1 62E9ED3B
+P 2600 6350
+F 0 "C15" V 2463 6350 50  0000 C CNN
+F 1 "C_Small" V 2462 6350 50  0001 C CNN
+F 2 "" H 2600 6350 50  0001 C CNN
+F 3 "~" H 2600 6350 50  0001 C CNN
+	1    2600 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 6350 2425 6350
+Connection ~ 2425 6350
+$Comp
+L Device:R_Small R23
+U 1 1 62EAF5EE
+P 2850 6350
+F 0 "R23" V 2746 6350 50  0000 C CNN
+F 1 "R_Small" V 2745 6350 50  0001 C CNN
+F 2 "" H 2850 6350 50  0001 C CNN
+F 3 "~" H 2850 6350 50  0001 C CNN
+	1    2850 6350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 6350 2700 6350
+$Comp
+L Device:D_Zener_Small ZD2
+U 1 1 62EC0786
+P 3000 6450
+F 0 "ZD2" V 2954 6520 50  0000 L CNN
+F 1 "D_Zener_Small" H 3045 6520 50  0001 L CNN
+F 2 "" V 3000 6450 50  0001 C CNN
+F 3 "~" V 3000 6450 50  0001 C CNN
+	1    3000 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R25
+U 1 1 62EC2635
+P 3000 6700
+F 0 "R25" H 3059 6700 50  0000 L CNN
+F 1 "R_Small" H 3059 6655 50  0001 L CNN
+F 2 "" H 3000 6700 50  0001 C CNN
+F 3 "~" H 3000 6700 50  0001 C CNN
+	1    3000 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6350 3000 6350
+Wire Wire Line
+	3000 6550 3000 6600
+Wire Wire Line
+	3000 6800 3000 6825
+Wire Wire Line
+	3000 6825 2725 6825
+Text GLabel 3300 6350 2    50   Input ~ 0
+L2-1
+Text GLabel 3300 7025 2    50   Input ~ 0
+L2-6
+Wire Wire Line
+	2425 7025 3300 7025
+Connection ~ 2425 7025
+Wire Wire Line
+	3000 6350 3250 6350
+Connection ~ 3000 6350
+$Comp
+L Device:C_Small C16
+U 1 1 62F15726
+P 2525 7200
+F 0 "C16" V 2475 7075 50  0000 C CNN
+F 1 "C_Small" V 2387 7200 50  0001 C CNN
+F 2 "" H 2525 7200 50  0001 C CNN
+F 3 "~" H 2525 7200 50  0001 C CNN
+	1    2525 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 62F16B0B
+P 2525 7350
+F 0 "D6" H 2350 7400 50  0000 C CNN
+F 1 "D_Small" H 2525 7466 50  0001 C CNN
+F 2 "" V 2525 7350 50  0001 C CNN
+F 3 "~" V 2525 7350 50  0001 C CNN
+	1    2525 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R28
+U 1 1 62F1926C
+P 2525 7475
+F 0 "R28" V 2450 7300 50  0000 C CNN
+F 1 "R_Small" V 2420 7475 50  0001 C CNN
+F 2 "" H 2525 7475 50  0001 C CNN
+F 3 "~" H 2525 7475 50  0001 C CNN
+	1    2525 7475
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 62F1B239
+P 2925 7475
+F 0 "D7" H 2925 7590 50  0000 C CNN
+F 1 "D_Small" H 2925 7591 50  0001 C CNN
+F 2 "" V 2925 7475 50  0001 C CNN
+F 3 "~" V 2925 7475 50  0001 C CNN
+	1    2925 7475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 7200 2425 7250
+Connection ~ 2425 7350
+Wire Wire Line
+	2425 7350 2425 7475
+Wire Wire Line
+	2625 7200 2625 7350
+Connection ~ 2625 7350
+Wire Wire Line
+	2625 7350 2625 7475
+Wire Wire Line
+	2625 7475 2825 7475
+Connection ~ 2625 7475
+Wire Wire Line
+	2225 7100 2225 7250
+Wire Wire Line
+	2225 7250 2425 7250
+Connection ~ 2225 7100
+Connection ~ 2425 7250
+Wire Wire Line
+	2425 7250 2425 7350
+Wire Wire Line
+	3000 6825 3000 7200
+Wire Wire Line
+	3000 7200 2625 7200
+Connection ~ 3000 6825
+Connection ~ 2625 7200
+Text GLabel 3300 7300 2    50   Input ~ 0
+PC1-4
+Text GLabel 3300 7475 2    50   Input ~ 0
+PC1-3
+Wire Wire Line
+	3025 7475 3300 7475
+Wire Wire Line
+	3300 7300 3250 7300
+Wire Wire Line
+	3250 7300 3250 6350
+Connection ~ 3250 6350
+Wire Wire Line
+	3250 6350 3300 6350
+Text GLabel 1950 4200 0    50   Input ~ 0
+PC1-4
+Text GLabel 1950 4400 0    50   Input ~ 0
+PC1-3
+Wire Wire Line
+	2400 4200 1950 4200
+Wire Wire Line
+	1950 4400 2400 4400
+Wire Wire Line
+	1900 5550 3300 5550
+Wire Wire Line
+	1450 6075 3300 6075
+Wire Wire Line
+	1075 7025 1350 7025
+Wire Wire Line
+	1275 5550 1450 5550
+Connection ~ 3200 1775
+Connection ~ 2475 2075
+Wire Wire Line
+	2475 2075 2925 2075
+Wire Wire Line
+	2475 2075 1950 2075
+Wire Wire Line
+	2925 1600 3000 1600
+Wire Wire Line
+	2925 1775 2925 1600
+Text GLabel 3000 1600 2    50   Input ~ 0
+PWR-B-15V
+Wire Wire Line
+	2925 1775 3200 1775
+Connection ~ 2925 1775
+Wire Wire Line
+	2925 1875 2925 1775
+Wire Wire Line
+	2775 1775 2925 1775
+Wire Wire Line
+	1950 1775 2175 1775
+Connection ~ 1950 1775
+Wire Wire Line
+	1950 1850 1950 1775
+Connection ~ 1675 1775
+Wire Wire Line
+	1675 1775 1950 1775
+Wire Wire Line
+	1675 1775 1675 1850
+Text GLabel 1325 1775 0    50   Input ~ 0
+L2-14
+$Comp
+L Device:D_Small D11
+U 1 1 62C0123D
+P 1575 1775
+F 0 "D11" H 1575 1568 50  0000 C CNN
+F 1 "D_Small" H 1575 1659 50  0001 C CNN
+F 2 "" V 1575 1775 50  0001 C CNN
+F 3 "~" V 1575 1775 50  0001 C CNN
+	1    1575 1775
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP_Small C30
+U 1 1 62C01237
+P 1675 1950
+F 0 "C30" H 1763 1950 50  0000 L CNN
+F 1 "48uF" H 1763 1905 50  0001 L CNN
+F 2 "" H 1675 1950 50  0001 C CNN
+F 3 "~" H 1675 1950 50  0001 C CNN
+	1    1675 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R41
+U 1 1 62C01231
+P 1950 1950
+F 0 "R41" H 2009 1996 50  0000 L CNN
+F 1 "2.2K" H 2009 1905 50  0000 L CNN
+F 2 "" H 1950 1950 50  0001 C CNN
+F 3 "~" H 1950 1950 50  0001 C CNN
+	1    1950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L78L15_SOT89 IC6
+U 1 1 62C0122B
+P 2475 1775
+F 0 "IC6" H 2475 2017 50  0000 C CNN
+F 1 "L78L15_SOT89" H 2475 1926 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2475 1975 50  0001 C CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 2475 1725 50  0001 C CNN
+	1    2475 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1325 2075 1675 2075
+Wire Wire Line
+	1325 1775 1475 1775
+$EndSCHEMATC

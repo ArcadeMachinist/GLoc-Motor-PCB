@@ -1,0 +1,78 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ON Semi MC74HC132ADTR2G
+#
+DEF MC74HC132ADTR2G U 0 40 Y Y 5 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "MC74HC132ADTR2G" 0 300 50 H V L CNN 
+F2 "ON_Semi-948G-02_2016-C-*" 0 400 50 H I L CNN 
+F3 "http://www.onsemi.com/pub/Collateral/MC74HC132A-D.PDF" 0 500 50 H I L CNN 
+F4 "511-00002" 0 600 50 H I L CNN "3DS Part Number"
+F5 "IC" 0 700 50 H I L CNN "category"
+F6 "Integrated Circuits (ICs)" 0 800 50 H I L CNN "device class L1"
+F7 "Logic ICs" 0 900 50 H I L CNN "device class L2"
+F8 "Logic Gates" 0 1000 50 H I L CNN "device class L3"
+F9 "IC GATE NAND QUAD 2INP 14-TSSOP" 0 1100 50 H I L CNN "digikey description"
+F10 "MC74HC132ADTR2GOSCT-ND" 0 1200 50 H I L CNN "digikey part number"
+F11 "http://www.onsemi.com/pub/Collateral/948G-01.PDF" 0 1300 50 H I L CNN "footprint url"
+F12 "1.35mm" 0 1400 50 H I L CNN "height"
+F13 "SOP65P640X135-14" 0 1500 50 H I L CNN "ipc land pattern name"
+F14 "yes" 0 1600 50 H I L CNN "lead free"
+F15 "c0fd6e94b131f3d9" 0 1700 50 H I L CNN "library id"
+F16 "Inverting" 0 1800 50 H I L CNN "logic function"
+F17 "ON Semi" 0 1900 50 H I L CNN "manufacturer"
+F18 "+150°C" 0 2000 50 H I L CNN "max junction temp"
+F19 "6V" 0 2100 50 H I L CNN "max supply voltage"
+F20 "2V" 0 2200 50 H I L CNN "min supply voltage"
+F21 "Logic Gates 2-6V Quad 2-Input NAND Schmitt" 0 2300 50 H I L CNN "mouser description"
+F22 "863-MC74HC132ADTR2G" 0 2400 50 H I L CNN "mouser part number"
+F23 "4" 0 2500 50 H I L CNN "number of circuits"
+F24 "8" 0 2600 50 H I L CNN "number of inputs"
+F25 "4" 0 2700 50 H I L CNN "number of outputs"
+F26 "TSSOP14" 0 2800 50 H I L CNN "package"
+F27 "1uA" 0 2900 50 H I L CNN "quiescent current"
+F28 "yes" 0 3000 50 H I L CNN "rohs"
+F29 "0.05mm" 0 3100 50 H I L CNN "standoff height"
+F30 "+125°C" 0 3200 50 H I L CNN "temperature range high"
+F31 "-55°C" 0 3300 50 H I L CNN "temperature range low"
+DRAW
+X A1 1 0 0 120 R 40 0 1 1 I 
+X B1 2 0 -200 120 R 40 0 1 1 I 
+X Y1 3 500 -100 90 L 40 0 1 1 O 
+P 2 1 1 0 120 50 120 -250 N
+P 2 1 1 0 120 50 220 50 N
+P 2 1 1 0 120 -250 220 -250 N
+A 220 -100 150 2663 936 1 1 0 N 210 -250 210 50
+C 390 -100 20 1 1 0 N
+X A2 4 0 0 120 R 40 0 2 1 I 
+X B2 5 0 -200 120 R 40 0 2 1 I 
+X Y2 6 500 -100 90 L 40 0 2 1 O 
+P 2 2 1 0 120 50 120 -250 N
+P 2 2 1 0 120 50 220 50 N
+P 2 2 1 0 120 -250 220 -250 N
+A 220 -100 150 2663 936 2 1 0 N 210 -250 210 50
+C 390 -100 20 2 1 0 N
+X A3 9 0 0 120 R 40 0 3 1 I 
+X B3 10 0 -200 120 R 40 0 3 1 I 
+X Y3 8 500 -100 90 L 40 0 3 1 O 
+P 2 3 1 0 120 50 120 -250 N
+P 2 3 1 0 120 50 220 50 N
+P 2 3 1 0 120 -250 220 -250 N
+A 220 -100 150 2663 936 3 1 0 N 210 -250 210 50
+C 390 -100 20 3 1 0 N
+X A4 12 0 0 120 R 40 0 4 1 I 
+X B4 13 0 -200 120 R 40 0 4 1 I 
+X Y4 11 500 -100 90 L 40 0 4 1 O 
+P 2 4 1 0 120 50 120 -250 N
+P 2 4 1 0 120 50 220 50 N
+P 2 4 1 0 120 -250 220 -250 N
+A 220 -100 150 2663 936 4 1 0 N 210 -250 210 50
+C 390 -100 20 4 1 0 N
+X VCC 14 0 0 100 R 40 40 5 1 W 
+X GND 7 800 0 100 L 40 40 5 1 W 
+S 100 100 700 -100 5 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
