@@ -1,6 +1,6 @@
 # SEGA G-Loc Motor Driver PCBs repro attempt.
 
-SEGA G-Loc is a full motion arcade flight simulator for 1990.
+SEGA G-Loc is a full motion arcade flight simulator from 1990.
 
 It has a motor logic control board and 2 motor driver boards.
 These motor drivers are known to fail for number of reasons.
