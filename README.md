@@ -14,4 +14,5 @@ For mor information on reapir attemps - see this forum:
 https://www.gamoover.net/Forums/index.php?topic=36585.0
 
 kicad-reproduction - original board clone attempt
+
 kicad-from-scratch - new design, work in progress
