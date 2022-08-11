@@ -1,0 +1,9 @@
+(module 2.45-1.5 (layer F.Cu) (tedit 5FD82F1D)
+  (fp_text reference " " (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value " " (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0.00762 -0.8763) (size 2.45 2.45) (drill 1.5) (layers *.Cu *.Mask))
+)
